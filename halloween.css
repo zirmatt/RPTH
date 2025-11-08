@@ -4,3 +4,10 @@
     font-weight: 400; 
     font-style: normal;
 } 
+
+@font-face { 
+    font-family: "Matthew"; 
+    src: url(https://static.wixstatic.com/ufonts/0b097a_ed1f3137871443838559b4d3524edbf0/woff2/file.woff2); 
+    font-weight: 400; 
+    font-style: normal;
+} 
