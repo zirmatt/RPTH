@@ -167,7 +167,8 @@
 
 .rc-nt::before{
     content: 'หมายเหตุ : ';
-    opacity: .2;
+    opacity: .5;
+    color: var(--color);
 }
 
 p{
