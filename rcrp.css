@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&family=Staatliches&display=swap);
+@import url(https://fonts.cdnfonts.com/css/racer);
+@import url(https://fonts.cdnfonts.com/css/supreme-spike);
+
+#racingRP{
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Anuphan';
+    position: relative;
+    border-top: 2px solid var(--color);
+    background: url(https://iili.io/KpSDsvR.png) 0% 0% / 1000px repeat, #070A12;
+    max-width: 750px;
+    margin: 2rem auto;
+
+.rc-h {
+    aspect-ratio: 750 / 275;
+    position: relative;
+}
+
+.rc-hbgn{
+    font-family: 'Racer';
+    font-size: clamp(9rem, 25vw, 12rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    opacity: 0.25;
+    background: linear-gradient(180deg, #FFF 11.25%, rgba(255, 255, 255, 0.00) 83.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    bottom: 12%;
+    left: 48%;
+}
+
+.rc-hbgn::before{
+    content: var(--num);
+}
+
+.rc-htt {
+    color: #FFF;
+    font-family: Staatliches;
+    font-size: 14.4px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    position: absolute;
+    left: 7%;
+    bottom: 14px;
+}
+
+.rc-htt::before{
+    content: var(--title)
+}
+
+.rc-hgd {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, var(--color));
+    opacity: .1;
+}
+
+.rc-mct {
+    aspect-ratio: 355 / 249;
+    background: linear-gradient(var(--color), var(--color)), url(https://iili.io/Kp63kRS.png) center / cover;
+    background-blend-mode: color;
+    -webkit-mask-image: url(https://iili.io/Kp63kRS.png);
+    mask-image: url(https://iili.io/Kp63kRS.png);
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    width: 47%;
+    position: absolute;
+    bottom: 0;
+    left: 28px;
+}
+
+.rc-mnb {
+    color: #FFF;
+    font-family: Racer;
+    font-size: clamp(2rem, 2vw + 2rem, 4rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    position: absolute;
+    top: 23%;
+    left: 7%;
+}
+
+.rc-mnb::before{
+    content: var(--num);
+}
+
+.rc-mic {
+    aspect-ratio: 355 / 249;
+    background: var(--img);
+    width: 45.6%;
+    position: absolute;
+    bottom: 0;
+    left: 28px;
+}
+
+.rc-ict {
+    position: absolute;
+    left: 55%;
+    bottom: 5%;
+}
+
+.rc-icn {
+    color: #686868;
+    font-family: Staatliches;
+    font-size: 14.4px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.rc-icn::before {
+    content: var(--car);
+}
+
+.rc-in {
+  margin-top: 12px;
+  color: #FFF;
+  font-family: 'Supreme Spike';
+  font-size: clamp(1rem, 4vw, 2rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.rc-in::before{
+    content: var(--name);
+}
+
+.rc-in::after{
+    content: var(--surname);
+}
+
+.rc-dvd {
+  aspect-ratio: 986 / 37;
+  background: var(--color);
+  -webkit-mask-image: url(https://iili.io/KpgzSKg.png);
+  mask-image: url(https://iili.io/KpgzSKg.png);
+  mask-size: cover;
+  -webkit-mask-size: cover;
+}
+
+.rc-bd {
+  padding: 55px 60px;
+  font-size: clamp(14px, 2.5vw, 17px);
+}
+
+.rc-nt {
+  padding: 8px 16px;
+  border-left: 5px solid var(--color);
+  background: #181A1D;
+  color: #AFAFAF;
+  font-size: clamp(14px, 2.5vw, 17px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  margin-top: 32px;
+}
+
+.rc-nt::before{
+    content: 'หมายเหตุ : ';
+    opacity: .2;
+}
+
+p{
+    margin-bottom: 1.5rem;
+}
+
+}
