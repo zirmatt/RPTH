@@ -37,6 +37,7 @@
 }
 
 .rc-htt {
+    max-width: 80px;
     color: #FFF;
     font-family: Staatliches;
     font-size: 14.4px;
